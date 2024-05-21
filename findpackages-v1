@@ -1,0 +1,4 @@
+# Found=$( find /Ligbrary/Application\ Support/JAMF/Waiting\ Room/ -maxdepth 1 -name *.mpkg -or -name * .pkg -or -name *.dmg | Wc -l | sed 's/^[ ]*//' )
+Found=$( find /Library/Application\ Support/JAMF/Waiting\ Room/ -maxdepth 1 -name * )
+echo$ Found
+#echo "<result>$Found</result>"
